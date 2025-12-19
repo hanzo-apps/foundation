@@ -4,8 +4,8 @@ import type { Viewport, Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Lux Foundation - Quantum-Safe Blockchain Technology',
-  description: 'Building the future of decentralized finance with quantum-safe blockchain technology. Lux Industries Inc.',
+  title: 'Hanzo Foundation - AI Infrastructure for the Future',
+  description: 'Building frontier AI and foundational models. Large language models, agent frameworks, and model context protocol. Hanzo Industries Inc.',
 }
 
 export const viewport: Viewport = {

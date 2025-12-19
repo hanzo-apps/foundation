@@ -1,9 +1,9 @@
-import { footer, mainNav, type SiteDef } from '@luxfi/ui/site-def'
-
-export default {
-  currentAs: 'https://lux.foundation',
-  nav: {
-    common: mainNav,
+export const siteDef = {
+  name: 'Hanzo Foundation',
+  url: 'https://hanzo.foundation',
+  links: {
+    discord: 'https://discord.gg/hanzoai',
+    twitter: 'https://twitter.com/hanaboratories',
+    github: 'https://github.com/hanzoai',
   },
-  footer: footer.standard,
-} as SiteDef
+}

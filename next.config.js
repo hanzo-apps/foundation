@@ -1,5 +1,3 @@
-const withMDX = require('@next/mdx')()
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   typescript: {
@@ -12,15 +10,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  pageExtensions: ['js', 'jsx', 'mdx', 'ts', 'tsx'],
-  transpilePackages: [
-    '@hanzo/ui',
-    '@hanzo/auth',
-    '@hanzo/commerce',
-    '@luxfi/ui',
-    '@luxfi/data',
-    '@luxfi/menu-icons'
-  ],
+  trailingSlash: true,
 }
 
-module.exports = withMDX(nextConfig)
+module.exports = nextConfig

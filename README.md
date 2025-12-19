@@ -1,29 +1,24 @@
-# fund
-Lux Fund static site.
+# Hanzo Foundation
 
-## To run locally
+Official website for the Hanzo Foundation - building frontier AI and foundational models.
 
-Install `pnpm` [like so](https://pnpm.io/installation)
+## Development
 
-The usual scripts for a Next site, using `pnpm`
-```
+```bash
 pnpm install
 pnpm dev
 ```
 
-Since "pnpm" is a finger twister, many people alias it to "pn". For example, with `bash`, put `alias pn='pnpm'` in `.bashrc`.
+## Build
 
-## Features
+```bash
+pnpm build
+```
 
-- Next.js 14.1
-- Radix UI Primitives
-- Tailwind CSS
-- Icons from [Lucide](https://lucide.dev)
-- Dark mode with `next-themes`
-- Tailwind CSS class sorting, merging and linting.
+## Deployment
 
-## Based on @hanzo/ui
+This site is deployed to GitHub Pages via GitHub Actions on push to main.
 
-- A React using Next 14.1, Tailwind and Radix
-- Pulls content from static json (in `/src/content`)
-- Lives [on GitHub here](https://github.com/hanzoai/ui)
+## License
+
+BSD 3-Clause License - Copyright (c) 2024-2025, Hanzo Industries Inc.
